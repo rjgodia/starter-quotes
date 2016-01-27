@@ -21,7 +21,7 @@ class Last extends Application {
         // Load the justone as the content
         $this->data['pagebody'] = 'justone';
         
-        // Retrieve the 2nd row
+        // Retrieve the last row
         $record = $this->quotes->last();
         // Merge the quote data with the justone view data
         $this->data = array_merge($this->data, $record);
