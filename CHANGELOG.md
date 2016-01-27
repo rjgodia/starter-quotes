@@ -6,7 +6,7 @@
 
 ### v.1.1 (2016-27-1)
 * Created a First.php Controller
-* Fixed the "first" link
+* Fixed the first link
 
 ### v.1.2 (2016-27-1)
 * Updated the First.php Controller with a "zzz" method for link 3
@@ -20,3 +20,9 @@
 
 ### v.1.4 (2016-27-1)
 * Created a Last.php Controller
+* Fixed the second (last) link
+
+### v.1.5 (2016-27-1)
+* Created a Bingo.php Controller
+* Added a regular expression route to routes.php to map "[a-zA-Z]{4}/bingo" to "bingo"
+* Fixed the seventh (wise/bingo) link
