@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Shows the first quote and the sleep quote using the
+ * Shows the first quote, sleep quote, and any quote based on is id using the
  * Quotes model and the justone view.
  *
  * controllers/First.php
