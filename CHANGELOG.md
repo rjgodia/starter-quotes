@@ -26,3 +26,7 @@
 * Created a Bingo.php Controller
 * Added a regular expression route to routes.php to map "[a-zA-Z]{4}/bingo" to "bingo"
 * Fixed the seventh (wise/bingo) link
+
+### v.1.6 (2016-27-1)
+* Added the "lock/*/*" route to routes.php to route to welcome/shucks
+* Added the shucks function to the Welcome.php controller
