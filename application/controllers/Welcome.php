@@ -34,7 +34,6 @@ class Welcome extends Application {
 		$this->render();
 	}
         
-        
         /**
          * Displays the 4th quote.
          *
@@ -43,8 +42,8 @@ class Welcome extends Application {
             // Load the justone as the content
             $this->data['pagebody'] = 'justone';
 
-            // Retrieve the 2nd row
-            $record = $this->quotes->get(4);
+            // Retrieve the 2nd quote
+            $record = $this->quotes->get(2);
             // Merge the quote data with the justone view data
             $this->data = array_merge($this->data, $record);
 
