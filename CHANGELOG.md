@@ -17,3 +17,6 @@
 * Updated the First.php Controller with a "gimme" method to show links by their id
 * Added a route to routes.php to map "show/(:num)" to "first/gimme/$1"
 * Fixed the fifth (show/3) link
+
+### v.1.4 (2016-27-1)
+* Created a Last.php Controller
