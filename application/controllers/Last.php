@@ -10,7 +10,6 @@
 class Last extends Application {
 
     function __construct() {
-        die("hi");
         parent::__construct();
     }
 
@@ -23,7 +22,7 @@ class Last extends Application {
         $this->data['pagebody'] = 'justone';
         
         // Retrieve the 2nd row
-        $record = $this->quotes->get(2);
+        $record = $this->quotes->last();
         // Merge the quote data with the justone view data
         $this->data = array_merge($this->data, $record);
         
