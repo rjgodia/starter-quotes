@@ -23,7 +23,7 @@
 | RESERVED ROUTES
 | -------------------------------------------------------------------------
 |
-| There area two reserved routes:
+| There area two reserved routes: 
 |
 |	$route['default_controller'] = 'welcome';
 |
@@ -46,8 +46,14 @@ $route['show/(:num)'] = "first/gimme/$1";
 $route['lock/(:any)/(:any)'] = "welcome/shucks";
 $route['([a-zA-Z]{4})/bingo'] = "bingo";
 $route['dunno'] = function() {
-    die($source);
+    if (!file_exists($source)) { show_404($source); }
+    $this->load->helper('file');
+    $mimeType = get_mime_by_extension($source);
+    header("Content-type: " . $mimeType);
+    header('Content-Disposition: inline');
+    readfile($source); 
 };
+$route['comp((0-9)*)/(:any)'] = "wise/bingo";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

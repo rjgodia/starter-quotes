@@ -31,5 +31,9 @@
 * Added the "lock/*/*" route to routes.php to route to welcome/shucks
 * Added the shucks function to the Welcome.php controller
 
-## v.1.7 (2016-27-1
+## v.1.7 (2016-27-1)
 * Added the "dunno" route in routes.php
+
+## v.1.8 (2016-27-1)
+* Created the Wise controller
+* Added a route to access Wise/bingo 
