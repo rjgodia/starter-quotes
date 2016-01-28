@@ -4,7 +4,7 @@
  * Shows the sixth quote using the Quotes model
  * and the justone view.
  *
- * controllers/Wise.php
+ * controllers/Wise.php 
  *
  * ------------------------------------------------------------------------
  */

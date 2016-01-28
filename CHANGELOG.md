@@ -36,4 +36,4 @@
 
 ## v.1.8 (2016-27-1)
 * Created the Wise controller
-* Added a route to access Wise/bingo
+* Added a route to access Wise/bingo 
