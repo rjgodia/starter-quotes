@@ -46,14 +46,16 @@ $route['show/(:num)'] = "first/gimme/$1";
 $route['lock/(:any)/(:any)'] = "welcome/shucks";
 $route['([a-zA-Z]{4})/bingo'] = "bingo";
 $route['dunno'] = function() {
-    if (!file_exists($source)) { show_404($source); }
-    $this->load->helper('file');
-    $mimeType = get_mime_by_extension($source);
-    header("Content-type: " . $mimeType);
+    $sourceDir = './data/';
+    $images = glob($sourceDir . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+    $source = $images[array_rand(count($images))];
+    // set the mime type for that image
+    header("Content-type: image/jpeg"); 
     header('Content-Disposition: inline');
-    readfile($source); 
+    readfile($source); // dish it
+    die(); // and we don't have to go any further
 };
-$route['comp((0-9)*)/(:any)'] = "wise/bingo";
+$route['comp([0-9]*)/.+'] = "wise/bingo";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
