@@ -37,3 +37,7 @@
 ## v.1.8 (2016-27-1)
 * Created the Wise controller
 * Added a route to access Wise/bingo 
+
+## v.1.9  (2016-29-1)
+* Fixed the wise/bingo route
+* Fixed the dunno route
