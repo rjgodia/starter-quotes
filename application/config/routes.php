@@ -55,7 +55,7 @@ $route['dunno'] = function() {
     readfile($source); // dish it
     die(); // and we don't have to go any further
 };
-$route['comp([0-9]*)/.+'] = "wise/bingo";
+$route['comp([0-9]{4})/.+'] = "wise/bingo";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
