@@ -48,7 +48,7 @@ $route['([a-zA-Z]{4})/bingo'] = "bingo";
 $route['dunno'] = function() {
     $sourceDir = './data/';
     $images = glob($sourceDir . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
-    $source = $images[array_rand(count($images))];
+    $source = $images[array_rand($images)];
     // set the mime type for that image
     header("Content-type: image/jpeg"); 
     header('Content-Disposition: inline');
