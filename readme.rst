@@ -19,7 +19,7 @@ Team POWA:
 **************
 Chang Beom
 RJ
-Daniel-san
+Daniel-san Rees
 
 **************
 Intended Usage
