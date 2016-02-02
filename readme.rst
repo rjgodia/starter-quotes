@@ -5,6 +5,7 @@ Starter Webapp - Quotes
 **************
 Changelog
 **************
+Update 1.1: Chang Beom added his last name in Team POWER
 Update 1: Added coding style and team members
 
 **************
@@ -17,7 +18,7 @@ if(){
 **************
 Team POWA:
 **************
-Chang Beom
+Chang Beom Seo
 RJ
 Daniel-san
 
