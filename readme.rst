@@ -19,7 +19,7 @@ if(){
 Team POWA:
 **************
 Chang Beom Seo
-RJ
+RJ Godia
 Daniel-san Rees
 
 **************
