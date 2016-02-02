@@ -11,7 +11,7 @@ Update 1: Added coding style and team members
 Coding Stylez:
 **************
 if(){
-/code/
+  /code/
 }
 
 **************
