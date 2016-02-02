@@ -2,9 +2,24 @@
 Starter Webapp - Quotes
 #######################
 
-This is the starter webapp for Tutorial ci-normal01
+**************
+Changelog
+**************
+Update 1: Added coding style and team members
 
-It is purposefully broken.
+**************
+Coding Stylez:
+**************
+if(){
+/code/
+}
+
+**************
+Team POWA:
+**************
+Chang Beom
+RJ
+Daniel-san
 
 **************
 Intended Usage
