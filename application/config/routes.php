@@ -39,6 +39,7 @@
 */
 
 $route['default_controller'] = "welcome";
+$route['lock/(:any)/(:any)'] = "welcome/shucks";
 $route['404_override'] = '';
 
 
