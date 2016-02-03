@@ -15,7 +15,7 @@ class Bingo extends Application {
     //put your code here
     function __construct() {
         parent::__construct();
-    }
+    } 
     
     function index() {
         $this->data['pagebody'] = 'justone';
