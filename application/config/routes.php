@@ -42,7 +42,7 @@ $route['default_controller'] = "welcome";
 $route['lock/(:any)/(:any)'] = "welcome/shucks";
 $route['404_override'] = '';
 $route['sleep'] = "first/zzz";
-
+$route['([a-zA-Z]{4})/bingo'] = "bingo";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

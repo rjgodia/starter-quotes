@@ -1,0 +1,14 @@
+﻿Added #6
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch feature/6
+# Your branch is up-to-date with 'origin/feature/6'.
+#
+# Changes to be committed:
+#	modified:   application/config/routes.php
+#
+# Untracked files:
+#	2jdqa0ut.fjs.txt
+#	application/controllers/Bingo.php
+#
+
